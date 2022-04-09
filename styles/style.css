@@ -682,4 +682,16 @@ section {
   font-weight: 800;
   font-size: 6.3rem;
 }
+
+.readbtn {
+  border: none;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-weight: inherit;
+}
+
+.readbtn:hover {
+  cursor: pointer;
+  color: var(--color-grey-2);
+}
 /*# sourceMappingURL=style.css.map */

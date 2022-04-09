@@ -540,3 +540,14 @@ section{
 }
 
 
+.readbtn {
+    border: none;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    font-weight: inherit;
+    &:hover{
+        cursor: pointer;
+        color: var(--color-grey-2);
+    }
+}
+
