@@ -50,20 +50,4 @@ function ReadMore() {
     }
   }
 
-function ReadMore1() {
-    var dots = document.getElementById("dots1");
-    var moreText = document.getElementById("more1");
-    var btnText = document.getElementById("myBtn1");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "View more"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "View less"; 
-      moreText.style.display = "grid";
-    }
-}
-
 PageTransitions();
